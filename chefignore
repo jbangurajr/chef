@@ -1,0 +1,30 @@
+# Put files/directories that should be ignored in this file when uploading
+# to a Chef Infra Server or Supermarket.
+# Lines that start with '# ' are comments.
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+nohup.out
+Thumbs.db
+.envrc
+
+# EDITORS #
+###########
+.#*
+.project
+.settings
+*_flymake
+*_flymake.*
+*.bak
+*.sw[a-z]
+*.tmproj
+*~
+\#*
+REVISION
+TAGS*
+tmtags
+.vscode
+.editorconfig
